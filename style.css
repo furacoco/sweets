@@ -1,0 +1,181 @@
+﻿@charset "UTF-8";
+
+/* 全体のCSS */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+body {
+  background: url(img/body_bg.gif);
+  color: #686868;
+}
+
+.container {
+  background: url(img/container_bg.png) no-repeat; /*木目の為のボックス*/
+}
+
+.wrapper {
+  width: 940px;
+  margin: 0 auto;
+}
+
+main {
+  background: #ffffff;
+  padding: 20px 10px 0;
+}
+
+/* header */
+
+header {
+  height: 150px;
+}
+
+h1 {
+  width: 220px;
+  float: left;
+  padding-top: 40px;
+  padding-right: 20px;
+}
+
+header nav {
+  background: url(img/navi_bg.jpg) no-repeat right bottom;
+}
+
+header li {
+  width: 140px;
+  float: left;
+  list-style: none;
+  padding-top: 67px;
+}
+
+header a {
+  display: block;
+}
+
+header a:hover img {
+  visibility: hidden;
+}
+
+/* main */
+
+.content {
+  width: 690px;
+  float: left;
+}
+
+.content h2 {
+  margin-bottom: 5px;
+}
+
+.topics {
+  width: 340px;
+  height: 300px;
+  float: left;
+  margin-right: 10px;
+}
+
+.topics dl {
+  font-size: 12px;
+  padding: 15px 0 0 20px;
+}
+
+.topics dt {
+  color: #000;
+  background: #e9e9e9;
+}
+
+.topics dd {
+  text-indent: 0.5em;
+}
+
+.topics a {
+  color: #686868;
+}
+.rank dl {
+  padding-top: 15px;
+}
+
+.rank dt {
+  width: 165px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.rank dd {
+  width: 150px;
+  float: right;
+  font-size: 12px;
+  height: 110px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.rank p {
+  margin-top: 5px;
+}
+
+.rank a {
+  color: #552900;
+}
+
+/* side */
+
+aside {
+  width: 220px;
+  float: right;
+}
+
+.side-btn01 {
+  background: url(img/btn_01_bg.jpg) no-repeat;
+}
+
+.side-btn02 {
+  background: url(img/btn_02_bg.jpg) no-repeat;
+}
+
+.side-banner {
+  background: url(img/banner_01_bg.jpg) no-repeat;
+}
+
+.side-margin {
+  margin-bottom: 10px;
+}
+aside ul {
+  padding-left: 1em;
+}
+
+aside li {
+  font-size: 12px;
+  padding-bottom: 5px;
+}
+
+aside a {
+  display: block;
+}
+
+aside a:hover img {
+  visibility: hidden;
+}
+
+/* footer */
+
+footer {
+  color: #ffffff;
+  font-size: 12px;
+  background: url(img/footer_bg.gif) no-repeat;
+  text-align: center;
+  padding: 60px;
+}
